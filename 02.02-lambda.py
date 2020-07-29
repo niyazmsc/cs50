@@ -7,14 +7,18 @@ people = [
 ]
 
 
+"""
 def keyName(person):
     return person["name"]
-
 
 def keyCity(person):
     return person["city"]
 
-
 people.sort( key = keyCity )
+
+ """
+
+people.sort( key = lambda person : person["name"] )
+#people.sort( key = lambda person : person["city"] )
 
 print(people)
