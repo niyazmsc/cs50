@@ -1,0 +1,12 @@
+h3{
+    color: seagreen;
+    text-shadow: purple;
+    background-color: silver;
+    width: fit-content;
+}
+h4{
+    color: aliceblue;
+    background-color: slategray;
+    box-shadow: steelblue;
+    width: fit-content;
+}
