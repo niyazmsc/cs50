@@ -19,4 +19,4 @@ for passenger in persons:
     if  flight_vistara2034.add_passenger(passenger) :
         print (f"Added passenger {passenger} to flight.")
     else :
-        print (f"Couldn't add passenger {passenger} to flight.")
+        print (f"No seat available for passenger {passenger} in this flight.")
